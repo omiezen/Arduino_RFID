@@ -57,7 +57,7 @@ Serial.println(thisString);
 
 //buzzer
 analogWrite(3,20);
-delay(1000);
+delay(5000);
 analogWrite(3,0);
 } else {
 /* If we have the same ID, just write a dot. */

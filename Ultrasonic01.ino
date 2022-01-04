@@ -1,6 +1,6 @@
 const int pingPin = 13;
 int inPin = 12;
-
+// internal arduino pin
 
 void setup() {
 Serial.begin(115200);

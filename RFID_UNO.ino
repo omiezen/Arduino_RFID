@@ -18,7 +18,7 @@ int serNum4;
  
 void setup()
 {
-Serial.begin(115200);
+Serial.begin(9600);
 SPI.begin();
 rfid.init();
 
@@ -57,7 +57,7 @@ Serial.println(thisString);
 
 //buzzer
 analogWrite(3,20);
-delay(2000);
+delay(1000)
 analogWrite(3,0);
 } else {
 /* If we have the same ID, just write a dot. */

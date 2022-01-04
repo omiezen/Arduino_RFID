@@ -27,7 +27,8 @@ duration = pulseIn(inPin, HIGH);
 //Serial.print("cm");
 //Serial.println();
 
-Serial.print(duration);
+//Remove here
+//Serial.print(duration);
 //Serial.print("cm");
 //Serial.println();
 

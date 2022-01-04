@@ -18,7 +18,7 @@ int serNum4;
  
 void setup()
 {
-Serial.begin(115200);
+Serial.begin(9600);
 SPI.begin();
 rfid.init();
 
